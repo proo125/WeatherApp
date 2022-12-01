@@ -1,0 +1,53 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Anek Devanagari', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
+}
+
+.weatherCard {
+   padding: 2em;
+   text-align: center;
+   background: rgba(1, 11, 24, 0.75);
+   border-radius: 25px;
+   width: 100%;
+   max-width: 420px;
+   margin: 1em;
+   color: whitesmoke;
+}
+
+.temperature{
+    font-size: 2.5rem;
+}
+
+.searchSection {
+    justify-content: space-around;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 7px;
+    border: none;
+    height: 2em;
+    width: 2.5em;
+    outline: none;
+    background: rgba(43, 44, 46, 0.9);
+    color: whitesmoke;
+}
+
+button:hover {
+    background: rgb(76, 77, 78, 0.75);
+    cursor: pointer;
+}
+
+input.searchBar {
+    border: none;
+    outline: none;
+    padding: 0.4em;
+    border-radius: 8px;
+    background: rgba(20, 22, 26, 0.75);
+    color: whitesmoke;
+    font-family: inherit;
+}
